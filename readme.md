@@ -16,6 +16,7 @@ Download the **inc** folder, then copy the code from **contact.php** and paste w
     
 ###And this to main.js
 
+	jQuery(document).ready(function($) {
       //set form by ID here
       $frm = $("#contactForm");
 
@@ -28,10 +29,9 @@ Download the **inc** folder, then copy the code from **contact.php** and paste w
             email: true
           }
         },
-     //Error Messages can be custom to each field
         messages: {
           name: "Please enter your full name",
-          email: "Please enter a valid email address",
+          email: "Please enter a valid email address"
         }
       });
 
